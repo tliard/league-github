@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "League-doc-github"
+  description: "League of Legends documentation sur github"
+  annotations:
+    github.com/project-slug: tliard/league-github
+    backstage.io/techdocs-ref: url:https://github.com/tliard/league-github
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "liardt"

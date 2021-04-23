@@ -1,0 +1,8 @@
+site_name: "League-doc-github"
+site_description: "League of Legends documentation sur github"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
